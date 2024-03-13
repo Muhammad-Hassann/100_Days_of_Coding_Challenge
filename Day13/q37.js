@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function make_shirt(size, message) {
     if (size === void 0) { size = "Large"; }
     if (message === void 0) { message = "I loved Typescript"; }
-    console.log("".concat(message, " and the size of shirt is ").concat(size));
+    console.log("The size of sirt is \"".concat(size, "\" and message printed on shirt is \"").concat(message, "\""));
 }
 // Large shirt 
 make_shirt();

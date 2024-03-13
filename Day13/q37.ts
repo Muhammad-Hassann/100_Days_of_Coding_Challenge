@@ -4,7 +4,7 @@
 // message
 
 function make_shirt( size:(string | number) = "Large", message:string = "I loved Typescript"){
-    console.log(`${message} and the size of shirt is ${size}`)
+    console.log(`The size of sirt is "${size}" and message printed on shirt is "${message}"`)
 }
 
 // Large shirt 
