@@ -2,7 +2,7 @@
 // text of a message that should be printed on the shirt. The function should print
 // a sentence summarizing the size of the shirt and the message printed on it.
 // Call the function.
-function make_shirt(message, size) {
-    return console.log("".concat(message, " and the size of shirt is ").concat(size));
+function make_shirt(size, message) {
+    console.log("The size of shirt is \"".concat(size, "\" and message printed on shirt is \"").concat(message, "\""));
 }
-make_shirt("The color of shirt is blue", 24);
+make_shirt("large", "I love TypeScript");

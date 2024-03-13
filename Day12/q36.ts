@@ -3,8 +3,8 @@
 // a sentence summarizing the size of the shirt and the message printed on it.
 // Call the function.
 
-function make_shirt(message:string , size:(string | number) ){
-   console.log(`${message} and the size of shirt is ${size}`)
+function make_shirt( size:(string | number), message:string ){
+   console.log(`The size of shirt is "${size}" and message printed on shirt is "${message}"`)
 }
 
-make_shirt("The color of shirt is blue", "large")
+make_shirt("large", "I love TypeScript")
