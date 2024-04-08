@@ -5,7 +5,6 @@ function currentDate(){
     let day = date.getDate()
     let month = date.getMonth() + 1
     let year = date.getFullYear()
-// console.log(date.getDate())
     return `${day}-${month}-${year}`
 }
 

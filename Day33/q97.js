@@ -4,7 +4,6 @@ function currentDate() {
     var day = date.getDate();
     var month = date.getMonth() + 1;
     var year = date.getFullYear();
-    // console.log(date.getDate())
     return "".concat(day, "-").concat(month, "-").concat(year);
 }
 console.log(currentDate());
