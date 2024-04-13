@@ -4,8 +4,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // • Add one new guest to the beginning of your array.
 // • Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. • Print a new set of invitation messages, one for each person in your list.
-var persons = ["Hammad", "Waqas", "Owais"];
-var invitation_message = ", You are invited to dinner today";
+let persons = ["Hammad", "Waqas", "Owais"];
+let invitation_message = ", You are invited to dinner today";
 // persons.forEach(element => {
 //     console.log(element + invitation_message)
 // });
@@ -15,10 +15,10 @@ var invitation_message = ", You are invited to dinner today";
 // persons.forEach(element => {
 //     console.log(element + invitation_message)
 // });
-console.log("Hey we have more space to invite more people");
-persons.push("Ibrahim");
-persons.splice(2, 0, "Araiz");
+console.log("Hey we have more space to invite more people!");
 persons.unshift("Dawood");
-persons.forEach(function (element) {
+persons.splice(2, 0, "Araiz");
+persons.push("Ibrahim");
+persons.forEach(element => {
     console.log(element + invitation_message);
 });

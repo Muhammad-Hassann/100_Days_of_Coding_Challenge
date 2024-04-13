@@ -1,5 +1,7 @@
+"use strict";
 // Question 53: Pulling Apart a Nested Object: Imagine you have a list inside another list that shows what a computer programmer knows, like coding languages, tools, and software frameworks. Find a way to get three specific skills from this list and show them.
-var programmer = {
+Object.defineProperty(exports, "__esModule", { value: true });
+let programmer = {
     name: "Hassan",
     age: 18,
     skills: {
@@ -8,5 +10,5 @@ var programmer = {
         frameworks: ["Bootstrap", "React"]
     }
 };
-var _a = programmer.skills, codingLanguages = _a.codingLanguages, tools = _a.tools, frameworks = _a.frameworks;
-console.log("Coding Languages : ".concat(codingLanguages[0], ", Tools : ").concat(tools[1], ", Framework : ").concat(frameworks[1]));
+let { codingLanguages, tools, frameworks } = programmer.skills;
+console.log(`Coding Languages : ${codingLanguages[0]}, Tools : ${tools[1]}, Framework : ${frameworks[1]}`);

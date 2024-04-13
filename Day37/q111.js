@@ -1,4 +1,6 @@
+"use strict";
 // Question 111: Use an if-else-if chain to categorize a person's age group (child, teenager, adult).
+Object.defineProperty(exports, "__esModule", { value: true });
 function getAgeGroup(age) {
     if (age < 13) {
         return "Child";

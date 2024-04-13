@@ -1,3 +1,4 @@
+"use strict";
 // Album: Write a function called make_album() that builds a Object
 // describing a music album. The function should take in an artist name and an
 // album title, and it should return a Object containing these two pieces of
@@ -8,6 +9,7 @@
 // number of tracks on an album. If the calling line includes a value for the number
 // of tracks, add that value to the album’s Object. Make at least one new
 // function call that includes the number of tracks on an album.
+Object.defineProperty(exports, "__esModule", { value: true });
 function make_album(album) {
     return console.log(album);
 }

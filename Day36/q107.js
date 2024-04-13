@@ -1,4 +1,6 @@
+"use strict";
 // Question 107: Write a condition using logical operators that checks if a number is divisible by both 2 and 3.
+Object.defineProperty(exports, "__esModule", { value: true });
 function isDivisibleBy2and3(num) {
     return (num % 2 === 0 && num % 3 === 0) || num % 6 === 0;
 }

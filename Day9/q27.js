@@ -5,8 +5,8 @@
 // • If the alien is red, print a message that the player earned 15 points.
 // • Write three versions of this program, making sure each message is printed for the appropriate color alien.
 Object.defineProperty(exports, "__esModule", { value: true });
-var prompt = require('prompt-sync')();
-var userColorInput = prompt('Enter your color for Alien');
+const prompt = require('prompt-sync')();
+let userColorInput = prompt('Enter your color for Alien');
 if (userColorInput === "green") {
     console.log('You earned 5 points');
 }

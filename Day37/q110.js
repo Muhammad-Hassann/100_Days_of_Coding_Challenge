@@ -1,4 +1,6 @@
+"use strict";
 // Question 110: Create a function that assigns a grade (A, B, C, D, F) based on a student's score.
+Object.defineProperty(exports, "__esModule", { value: true });
 function getGrades(num) {
     if (num >= 80) {
         return "A";

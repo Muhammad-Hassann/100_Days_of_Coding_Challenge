@@ -11,6 +11,6 @@ console.log(10 - 2);
 console.log(2 * 4);
 console.log(16 / 2);
 // The code is reveal my favorite number.
-var favorite_num = 56;
-var message = "My favorite number is ".concat(favorite_num);
+let favorite_num = 56;
+let message = `My favorite number is ${favorite_num}`;
 console.log(message);

@@ -1,3 +1,4 @@
+"use strict";
 // Animals: Think of at least three different animals that have a common characteristic.
 // Store the names of these animals in a list, and then use a for loop to
 // print out the name of each animal.
@@ -6,12 +7,12 @@
 // • Add a line at the end of your program stating what these animals have in
 // common. You could print a sentence such as Any of these animals would
 // make a great pet!
-var animals = ["Dog", "Cat", "Parrot"];
-for (var _i = 0, animals_1 = animals; _i < animals_1.length; _i++) {
-    var i = animals_1[_i];
+Object.defineProperty(exports, "__esModule", { value: true });
+let animals = ["Dog", "Cat", "Parrot"];
+for (let i of animals) {
     console.log(i);
 }
-animals.forEach(function (element) {
-    console.log("A ".concat(element, " would make a grat pet"));
+animals.forEach(element => {
+    console.log(`A ${element} would make a great pet`);
 });
 console.log("Any of these animals would make a great pet!");

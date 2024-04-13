@@ -4,6 +4,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function removeElement(arr) {
     return arr.pop();
 }
-var fruits = ["Apple", "Mango", "Graps"];
+let fruits = ["Apple", "Mango", "Graps"];
 console.log(removeElement(fruits));
 console.log(fruits);

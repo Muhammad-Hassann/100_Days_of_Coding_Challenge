@@ -7,25 +7,25 @@
 // • Test whether an item is in a array
 // • Test whether an item is not in a array
 Object.defineProperty(exports, "__esModule", { value: true });
-var car = "Audi";
+let car = "Audi";
 console.log(car == "Suzuki");
 console.log(car == "Audi");
-var bike = "Honda";
+let bike = "Honda";
 bike.toLowerCase();
 console.log(bike == "honda");
 console.log(bike == "Honda");
-var age = 45;
-console.log(age = 18);
+let age = 45;
+console.log(age == 18);
 console.log(age >= 18);
 console.log(age <= 18);
-var num1 = 36;
-var num2 = 24;
+let num1 = 36;
+let num2 = 24;
 console.log(num1 >= 18 && num2 <= 18);
 console.log(num1 >= 18 && num2 >= 18);
 console.log(num1 <= 18 && num2 <= 18);
 console.log(num1 >= 18 || num2 <= 18);
 console.log(num1 >= 18 || num2 >= 18);
 console.log(num1 <= 18 || num2 <= 18);
-var arr = ["Mubashir", "Uzair", "Hassan", "Usama"];
+let arr = ["Mubashir", "Uzair", "Hassan", "Usama"];
 console.log(arr.indexOf("Usama") !== -1);
 console.log(arr.indexOf("Hammad") !== -1);
