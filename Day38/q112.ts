@@ -7,3 +7,5 @@ let countriesCapitals = new Map<string, string>([
 ])
 
 console.log(countriesCapitals)
+
+export{}
