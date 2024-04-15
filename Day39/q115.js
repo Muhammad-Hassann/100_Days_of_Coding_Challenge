@@ -1,5 +1,7 @@
+"use strict";
 // Question 115: Use a switch statement to log the days of the week based on a number (1-7).
-function days(num) {
+Object.defineProperty(exports, "__esModule", { value: true });
+function weekDays(num) {
     switch (num) {
         case 1:
             console.log("Monday");
@@ -27,5 +29,5 @@ function days(num) {
             break;
     }
 }
-days(6);
-days(3);
+weekDays(6);
+weekDays(3);

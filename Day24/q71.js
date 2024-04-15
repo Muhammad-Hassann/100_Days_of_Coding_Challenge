@@ -5,7 +5,7 @@ let piWithLet = 3.14;
 piWithLet = 4.16; // This is what we don't want
 const piWithConst = 3.14;
 try {
-    piWithConst = 5.16;
+    // piWithConst = 5.16;  // Comment because it gives error
 }
 catch (err) {
     console.log("Can't change the value of PI");

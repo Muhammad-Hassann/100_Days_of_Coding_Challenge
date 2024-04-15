@@ -9,12 +9,12 @@
 }
 
 try{
-    console.log(name1)
+    // console.log(name1) // Comment because it gives error
 } catch(err){
     console.log("variables with let keyword are not acsessible outside the block")
 }
 try{
-    console.log(name2)
+    // console.log(name2) // Comment because it gives error
 } catch(err){
     console.log("variables with const keyword are not acsessible outside the block")
 }

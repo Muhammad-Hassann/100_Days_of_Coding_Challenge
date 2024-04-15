@@ -1,12 +1,13 @@
+"use strict";
 // Question 129: Explain how this behaves differently in arrow functions compared to traditional functions.
-var _this = this;
-var obj = {
+Object.defineProperty(exports, "__esModule", { value: true });
+let obj = {
     name: "Hassan",
     traditionalFunction: function () {
-        console.log("Traditional Function: ".concat(this.name));
+        console.log(`Traditional Function: ${this.name}`);
     },
-    arrowFunction: function () {
-        console.log("Arrow Function: ".concat(_this.name)); // Give error "Object is possibly 'undefined'"
+    arrowFunction: () => {
+        console.log(`Arrow Function: ${this.name}`); // Give error "Object is possibly 'undefined'"
     }
 };
 obj.traditionalFunction();
