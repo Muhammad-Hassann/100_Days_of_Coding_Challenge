@@ -1,0 +1,23 @@
+<!-- Here’s a code that asks the user for two numbers and shows their sum.
+It works incorrectly. The output in the example below is 12 (for default prompt values).
+ Why? Fix it. The result should be 3. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt("First number?", 1);
+        let b = prompt("Second number?", 2);
+        
+        a = Number(a)
+        b = Number(b)
+
+        alert(a + b); // 12
+    </script>
+</body>
+</html>
