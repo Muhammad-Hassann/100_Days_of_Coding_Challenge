@@ -1,0 +1,29 @@
+<!-- Using if..else, write the code which gets a number via prompt and then shows in alert:
+1, if the value is greater than zero,
+-1, if less than zero,
+0, if equals zero. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let input = prompt("Enter the number")
+        input = Number(input)
+        if(input > 0){
+            input = 1
+            alert(input)
+        }else if(input < 0){
+            input = -1
+            alert(input)
+        }else{
+            input = 0
+            alert(input)
+        }
+    </script>
+</body>
+</html>
