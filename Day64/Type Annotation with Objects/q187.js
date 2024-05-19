@@ -1,5 +1,7 @@
+"use strict";
 // Type Annotations With Objects
-var personExOne;
+Object.defineProperty(exports, "__esModule", { value: true });
+let personExOne;
 personExOne = {
     name: "Alice",
     age: 30,
@@ -11,7 +13,7 @@ personExOne = {
 };
 // And there is yet another method
 // Define an object type with type annotations
-var personExTwo = {
+let personExTwo = {
     name: "Alice",
     age: 30,
     jobTitle: "Engineer",

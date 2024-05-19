@@ -1,6 +1,8 @@
+"use strict";
 // Question 143: Show how to use the .then() and .catch() methods to handle Promise resolution and rejection.
-var myPromise = new Promise(function (resolve, reject) {
-    var success = Math.random() < 0.5;
+Object.defineProperty(exports, "__esModule", { value: true });
+let myPromise = new Promise((resolve, reject) => {
+    let success = Math.random() < 0.5;
     if (success) {
         resolve("Success!");
     }
@@ -8,8 +10,8 @@ var myPromise = new Promise(function (resolve, reject) {
         reject(new Error("Failure"));
     }
 });
-myPromise.then(function (res) {
+myPromise.then((res) => {
     console.log(res);
-}).catch(function (error) {
+}).catch((error) => {
     console.log(error);
 });

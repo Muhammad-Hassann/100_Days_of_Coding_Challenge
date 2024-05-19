@@ -1,6 +1,9 @@
+"use strict";
+// Never and void type in function
+Object.defineProperty(exports, "__esModule", { value: true });
 // void
 function greet(name) {
-    console.log("Hello, ".concat(name, "!"));
+    console.log(`Hello, ${name}!`);
 }
 function noReturnValue() {
     // This function doesn't return a value (implicitly returns undefined).

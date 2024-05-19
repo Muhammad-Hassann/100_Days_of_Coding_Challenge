@@ -1,7 +1,9 @@
+"use strict";
 // Question 142: Create a Promise that resolves with "Hello, World!" after 2 seconds.
-var resolvesHello = new Promise(function (resolve, reject) {
-    setTimeout(function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+let resolvesHello = new Promise((resolve, reject) => {
+    setTimeout(() => {
         resolve("Hello World");
     }, 2000);
 });
-resolvesHello.then(function (res) { return console.log(res); });
+resolvesHello.then((res) => console.log(res));

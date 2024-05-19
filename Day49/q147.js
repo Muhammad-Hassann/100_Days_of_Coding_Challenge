@@ -1,7 +1,9 @@
+"use strict";
 // Question 147: Explain how to handle errors in a callback pattern.
+Object.defineProperty(exports, "__esModule", { value: true });
 function fetchData(callback) {
-    var error = new Error("Fail to Fetch Data");
-    var data = "Some Data";
+    const error = new Error("Fail to Fetch Data");
+    const data = "Some Data";
     if (Math.random() < 0.5) {
         callback(null, data);
     }
@@ -9,7 +11,7 @@ function fetchData(callback) {
         callback(error);
     }
 }
-fetchData(function (error, data) {
+fetchData((error, data) => {
     if (error) {
         console.error(error.message);
     }

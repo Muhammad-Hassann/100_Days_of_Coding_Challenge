@@ -1,4 +1,6 @@
+"use strict";
 // ENUMS
+Object.defineProperty(exports, "__esModule", { value: true });
 var Days;
 (function (Days) {
     Days[Days["Sunday"] = 0] = "Sunday";
@@ -9,7 +11,7 @@ var Days;
     Days[Days["Friday"] = 5] = "Friday";
     Days[Days["Saturday"] = 6] = "Saturday";
 })(Days || (Days = {}));
-var today = Days.Wednesday;
-var tomorrow = Days.Thursday;
-console.log("Today is ".concat(Days[today]));
-console.log("Tomorrow is ".concat(Days[tomorrow]));
+const today = Days.Wednesday;
+const tomorrow = Days.Thursday;
+console.log(`Today is ${Days[today]}`);
+console.log(`Tomorrow is ${Days[tomorrow]}`);

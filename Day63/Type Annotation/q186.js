@@ -1,19 +1,21 @@
+"use strict";
 // Type Annotation
-var myNumberExOne = 42;
-var myStringExOne = "Hello, TypeScript";
+Object.defineProperty(exports, "__esModule", { value: true });
+let myNumberExOne = 42;
+let myStringExOne = "Hello, TypeScript";
 console.log("My Number Is:", myNumberExOne);
 console.log("My String Is:", myStringExOne);
 // Another way to write this code:
-var myNumberExTwo;
-var myStringExTwo;
+let myNumberExTwo;
+let myStringExTwo;
 myNumberExTwo = 42;
 myStringExTwo = "Hello, TypeScript";
 console.log("My Number Is:", myNumberExTwo);
 console.log("My String Is:", myStringExTwo);
 // Dynamic type determination OR Type Inference
-var greeting = "Hello, world!";
+let greeting = "Hello, world!";
 console.log(greeting);
 // Any Type
-var myVariable = 42;
+let myVariable = 42;
 myVariable = "Hello, TypeScript";
 console.log(myVariable);
